@@ -70,9 +70,9 @@ body {
     font-size: var(--font-size-small);
     font-family: var(--font-stack);
     font-weight: 400;
-    color: var(--white-1);
+    color: var(--blue-1);
     line-height: var(--line-height-normal);
-    background: var(--black);
+    background: var(--white);
     overflow-x: hidden;
 }
 
@@ -125,7 +125,7 @@ h3 {
     font-family: 'Jost', sans-serif;
     font-weight: 400;
     line-height: var(--line-height-small);
-    color: var(--white);
+    color: var(--blue);
 }
 
 .heading-primary {
@@ -188,7 +188,7 @@ p {
 /* --------------------------------------- */
 
 a {
-    color: var(--white);
+    color: var(--green);
     font-weight: 400;
     font-family: 'Jost', sans-serif;
     transition: all .2s;
