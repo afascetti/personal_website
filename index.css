@@ -70,7 +70,7 @@ body {
     font-size: var(--font-size-small);
     font-family: var(--font-stack);
     font-weight: 400;
-    color: var(--blue-1);
+    color: var(--white-1);
     line-height: var(--line-height-normal);
     background: var(--white);
     overflow-x: hidden;
@@ -125,7 +125,7 @@ h3 {
     font-family: 'Jost', sans-serif;
     font-weight: 400;
     line-height: var(--line-height-small);
-    color: var(--blue);
+    color: var(--white);
 }
 
 .heading-primary {
