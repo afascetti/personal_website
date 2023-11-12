@@ -1,10 +1,5 @@
 # Portfolio Template
 
-## Lighthouse Report
-
-![Lighthouse Report](/images/lighthouse-report.png)
-
-### Contributions are warmly welcomed ❤️.
 
 ## Getting Started 🚀
 
