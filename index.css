@@ -439,15 +439,10 @@ body:not(.user-is-tabbing) a:focus {
 
 .header__image-box {
     margin-bottom: var(--gutter-normal);
-    height: 70%;
+    height: 4rem;
+    justify-content: center;
 }
 
-@media(max-width: 901px) {
-    .header__image-box {
-        flex: 1;
-        margin: 0 0 0 10rem;
-    }
-}
 
 /* --------------------------------------- */
 /* ----- Work ----- */
