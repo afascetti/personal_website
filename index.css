@@ -38,6 +38,7 @@
     --pink: #ff3258;
     --white: #f0e9f2;
     --white-1: #e5e5e6da;
+    --blue: #b5d3ef;
 
 
     --container-max-width: 1180px;
@@ -72,8 +73,7 @@ body {
     font-weight: 400;
     color: var(--blue);
     line-height: var(--line-height-normal);
-    background: linear-gradient(rgba(0,0,0, .1), rgba(0,0,0, .4)), 
-        url('./images/header.jpg');
+    bbackground: var(--blue);
     overflow-x: hidden;
 }
 
@@ -503,32 +503,6 @@ body:not(.user-is-tabbing) a:focus {
 @media(max-width: 900px) {
     .work__code {
         height: 4rem;
-    }
-}
-
-/* --------------------------------------- */
-/* ----- Clients ----- */
-/* --------------------------------------- */
-
-.client__logos {
-    display: flex;
-    justify-content: space-between;
-    filter: invert(100%) grayscale(100%) opacity(.8);
-}
-
-.client__logo {
-    height: 6.5rem;
-    max-width: 18rem;
-}
-
-@media(max-width: 1240px) {
-    .client__logos {
-        overflow-x: scroll;
-        padding: var(--gutter-normal);
-    }
-
-    .client__logo:not(:last-of-type) {
-        margin-right: var(--gutter-medium);
     }
 }
 
