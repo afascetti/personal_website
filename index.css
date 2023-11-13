@@ -439,6 +439,7 @@ body:not(.user-is-tabbing) a:focus {
 
 .header__image-box {
     margin-bottom: var(--gutter-normal);
+    height: 70%;
 }
 
 @media(max-width: 901px) {
